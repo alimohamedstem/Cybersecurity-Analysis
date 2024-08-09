@@ -1,0 +1,10 @@
+# Provide the configuration lines you will update to ensure that Apache launches with group name as "apache-group" and user account as "apache-user".
+
+
+#Configuration lines:
+/etc/apache2/apache2.conf
+export APACHE_RUN_USER=apache-user
+export APACHE_RUN_GROUP=apache-group
+
+User apache-user
+Group apache-group

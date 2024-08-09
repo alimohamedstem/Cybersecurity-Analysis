@@ -1,0 +1,4 @@
+# Provide your IPtables rule to block SSH access to the attacking IP address.
+
+
+sudo ufw deny from 192.168.56.1 port 22
